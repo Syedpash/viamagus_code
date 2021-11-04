@@ -6,7 +6,7 @@ const Video = () => {
     const [current, setCurrent] = useState([videos[0], 0]);
     return (
         <div className="video-page">
-            <ReactPlayer url={current[0]} />
+            <ReactPlayer url={current[0]} width="100%" height="300px"/>
             <div className="video-circles">
             {
                 videos.map((video,i) => {

@@ -121,5 +121,10 @@ height: 10px;
         width: 100%;
         margin-top: 2rem;
     }
-    
+    .login-card {
+        width: 100%;
+    }
+    .google img, .facebook img {
+    margin-right: 5%;
+}
 }

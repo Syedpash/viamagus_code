@@ -24,3 +24,9 @@
     height: 15px;
     background-color: chocolate;
 }
+
+@media screen and (max-width:800px) { 
+    .video-page {
+        margin: 5% 0;
+    }
+}
