@@ -1,0 +1,26 @@
+.video-page {
+    margin: 5% 30%;
+    text-align: center;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: bisque;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.video-circles {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.active-circle {
+    width: 15px;
+    height: 15px;
+    background-color: chocolate;
+}
